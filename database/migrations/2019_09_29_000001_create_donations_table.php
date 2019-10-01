@@ -18,7 +18,7 @@ class CreateDonationsTable extends Migration
             $table->unsignedInteger('user_id')->nullable();
             $table->char('currency',4)->default('EUR');
             $table->float('amount');
-            $table->string('remarks');
+            $table->string('remarks')->nullable();
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade');

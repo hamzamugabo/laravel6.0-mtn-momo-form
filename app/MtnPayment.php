@@ -29,6 +29,8 @@ class MtnPayment extends Model
     protected $fillable = [
         'status',
         'reason',
+        'id',
+        'donation_id',
         'party_id_type',
         'party_id',
         'currency',

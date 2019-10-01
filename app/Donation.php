@@ -25,6 +25,8 @@ class Donation extends Model
     protected $fillable = [
         'currency',
         'amount',
+        'id',
+        'user_id',
         'remarks',
     ];
 

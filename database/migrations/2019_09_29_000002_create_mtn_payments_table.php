@@ -17,12 +17,12 @@ class CreateMtnPaymentsTable extends Migration
         Schema::create('mtn_payments', function (Blueprint $table) {
             $table->uuid('id');
             $table->unsignedInteger('donation_id');
-            $table->enum('status', ['PENDING', 'FAILED','REJECTED','TIMEOUT','ONGOING']);
+            $table->enum('status', ['PENDING', 'FAILED','REJECTED','TIMEOUT','ONGOING','SUCCESSFUL']);
             $table->string('reason')->nullable();
             $table->enum('party_id_type', ['MSISDN', 'EMAIL', 'ID'])->default('MSISDN');
             $table->string('party_id', 50);
             $table->char('currency', 3);
-            $table->bigInteger('amount');
+            $table->float('amount');
             $table->string('payer_message');
             $table->string('payee_note');
             $table->timestamps();
