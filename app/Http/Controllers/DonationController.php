@@ -44,7 +44,6 @@ class DonationController extends Controller
             'currency'=>$request->currency,
             'amount'=>$request->amount,
         ]);
-
         $donate->save();
 
         try {
@@ -58,8 +57,7 @@ class DonationController extends Controller
 
         $transactionStatus = $collection->getTransactionStatus($momoTransactionId);
 
-        $this->store_payment($momoTransactionId,$transactionStatus,$donate);
-
+        return $this->store_payment($momoTransactionId,$transactionStatus,$donate);
     }
 
     /**
@@ -70,7 +68,7 @@ class DonationController extends Controller
      */
     public function store_payment($momoTransactionId,$transactionStatus,$donate)
     {
-        $momopayment = MtnPayment::create([
+        $mtn_payments = MtnPayment::create([
             'donation_id'=>$donate['id'],
             'status'=>$transactionStatus['status'],
             'id'=>$momoTransactionId,
@@ -83,7 +81,7 @@ class DonationController extends Controller
             'party_id'=>$transactionStatus['payer']['partyId'],
         ]);
 
-        $momopayment->save();
+        $mtn_payments->save();
 
         return $this->index();
     }
