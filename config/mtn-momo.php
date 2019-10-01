@@ -9,7 +9,7 @@ return [
      */
     'app' => env('MOMO_APP', 'Laravel MTN Momo'),
 
-    // Transaction currency code.
+    // Donation currency code.
     'currency' => env('MOMO_CURRENCY', 'EUR'),
 
     /*
@@ -87,7 +87,7 @@ return [
             // Transact (collect)
             'transaction_uri' => env('MOMO_COLLECTION_TRANSACTION_URI', 'collection/v1_0/requesttopay'),
 
-            // Transaction status
+            // Donation status
             'transaction_status_uri' => env(
                 'MOMO_COLLECTION_TRANSACTION_STATUS_URI',
                 'collection/v1_0/requesttopay/{momoTransactionId}'
@@ -119,7 +119,7 @@ return [
             // Transact (disburse)
             'transaction_uri' => env('MOMO_DISBURSEMENT_TRANSACTION_URI', 'disbursement/v1_0/transfer'),
 
-            // Transaction status
+            // Donation status
             'transaction_status_uri' => env(
                 'MOMO_DISBURSEMENT_TRANSACTION_STATUS_URI',
                 'disbursement/v1_0/transfer/{momoTransactionId}'
@@ -151,7 +151,7 @@ return [
             // Transact (remit)
             'transaction_uri' => env('MOMO_REMITTANCE_TRANSACTION_URI', 'remittance/v1_0/transfer'),
 
-            // Transaction status
+            // Donation status
             'transaction_status_uri' => env(
                 'MOMO_REMITTANCE_TRANSACTION_STATUS_URI',
                 'remittance/v1_0/transfer/{momoTransactionId}'

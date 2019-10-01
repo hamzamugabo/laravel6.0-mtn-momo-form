@@ -18,6 +18,8 @@ Route::get('/', function () {
 Route::get('mtn-momo', 'TransactionController@create')->name('form_path');
 Route::get('mtn-momo/view', 'TransactionController@index')->name('display_path');
 Route::post('mtn-momo/store', 'TransactionController@store')->name('store_path');
+Route::get('mtn-momo/store/momo', 'TransactionController@store_momoTransactionId')->name('store_paths');
+Route::get('mtn-momo/store/update', 'TransactionController@update')->name('update_paths');
 
 Auth::routes();
 
