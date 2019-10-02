@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+
 use App\MtnPayment;
 use App\Donation;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
@@ -26,9 +28,9 @@ class DonationController extends Controller
         $validator = Validator::make($request->all(), [
             'party_id_type' => 'sometimes|required|string',
             'phone_number' => ['string','min:10'],
-            'currency' => 'required|string',
-            'status' => 'required|string',
-            'amount' => 'required|integer',
+            'currency' => 'sometimes|required|string',
+            'status' => 'sometimes|required|string',
+            'amount' => 'sometimes|required|integer',
             'payer_message' => 'sometimes|required|string',
             'payee_note' => 'sometimes|required|string',
 
@@ -40,8 +42,9 @@ class DonationController extends Controller
 
         $user1 = Auth::user();
         $donate = Donation::create([
-            'user_id'=>$user1['id'],
-            'currency'=>$request->currency,
+            'user_id'=>isset($user1['id']) ? $user1['id'] : null,
+            'remarks'=>$request->remark,
+            'phone_number'=>$request->phone,
             'amount'=>$request->amount,
         ]);
         $donate->save();
@@ -53,11 +56,13 @@ class DonationController extends Controller
 
         $transactionId = env('MOMO_COLLECTION_ID');
 
-        $momoTransactionId =  $collection->transact($transactionId, $request->input(['partyid']), $donate->amount, 'payer_message','payee_note');
+        $momoTransactionId =  $collection->transact($transactionId, $request->input(['phone']), $donate->amount, 'payer_message','payee_note');
 
         $transactionStatus = $collection->getTransactionStatus($momoTransactionId);
 
-        return $this->store_payment($momoTransactionId,$transactionStatus,$donate);
+
+
+        return $this->store_payment($momoTransactionId,$transactionStatus,$donate,$user1);
     }
 
     /**
@@ -66,7 +71,7 @@ class DonationController extends Controller
      * @param $donate
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function store_payment($momoTransactionId,$transactionStatus,$donate)
+    public function store_payment($momoTransactionId,$transactionStatus,$donate,$user1)
     {
         $mtn_payments = MtnPayment::create([
             'donation_id'=>$donate['id'],
@@ -83,16 +88,30 @@ class DonationController extends Controller
 
         $mtn_payments->save();
 
-        return $this->index();
+
+        return $this->index($mtn_payments);
     }
 
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function index()
+    public function index($mtn_payments)
     {
         $mtn_payments= MtnPayment::all();
         return view('mtn-mom.view',['mtn_payments'=>$mtn_payments]);
+    }
+
+    public  function display()
+    {
+//        $donations = Donation::where('user_id', Auth::user()->id);
+        dd(Auth::user());
+//
+//        $mtn_payments= Donation::all();
+////dd($mtn_payments);
+//        $donations = Donation::find(1)->donor;
+//
+//
+//       return view('welcome',['mtn_payments'=>$mtn_payments,'donations'=>$donations]);
     }
 
 }

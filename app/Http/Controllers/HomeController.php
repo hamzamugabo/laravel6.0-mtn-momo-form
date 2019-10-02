@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Donation;
+use App\MtnPayment;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -21,8 +25,12 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(User $id)
     {
-        return view('home');
+
+        $users = User::all();
+        $donations = Donation::all();
+
+        return view('welcome', compact('donations', 'users'));
     }
 }

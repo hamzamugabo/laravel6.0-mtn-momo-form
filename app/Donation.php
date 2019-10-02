@@ -28,6 +28,7 @@ class Donation extends Model
         'id',
         'user_id',
         'remarks',
+        'phone_number',
     ];
 
     /**

@@ -18,6 +18,7 @@ class CreateDonationsTable extends Migration
             $table->unsignedInteger('user_id')->nullable();
             $table->char('currency',4)->default('EUR');
             $table->float('amount');
+            $table->char('phone_number');
             $table->string('remarks')->nullable();
             $table->timestamps();
 
