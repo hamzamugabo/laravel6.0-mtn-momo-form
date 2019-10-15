@@ -7,10 +7,77 @@
       <change beforePath="$PROJECT_DIR$/../ects-api/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ects-api/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ects-api/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ects-api/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ects-api/tests/Unit/ClientTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ects-api/tests/Unit/ClientTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DonationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DonationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mtn-mom/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mtn-mom/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel/blog/FormController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Exceptions/Handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/BlogsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/BlogsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/CommentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/CommentsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/DevicesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/DevicesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/DevicesController.php___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/FormController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Http/Resources/Device.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Http/Resources/Device.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/database/factories/CommentFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/database/factories/CommentFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/database/factories/DeviceFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/database/factories/DeviceFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/database/factories/PostFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/create_comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/create_comment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/blogs/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/devices/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/devices/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/devices/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/devices/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/layouts/app2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/layouts/app2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/loginform/display.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/loginform/display.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/loginform/display.blade.php___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/loginform/loginform.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/loginform/loginform.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/successlogin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/successlogin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/tests/Browser/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/tests/Browser/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/tests/Browser/Pages/HomePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/tests/Browser/Pages/HomePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/tests/DuskTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/tests/DuskTestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/tests/Feature/BlogTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/tests/Feature/BlogTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/tests/Feature/DataBaseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/tests/Feature/DataBaseTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/tests/Unit/LoginPageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravel/blog/tests/Unit/LoginPageTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravel/blog/tests/Unit/LoginPageTest.php___jb_tmp___" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../smart-agric/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smart-agric/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smart-agric/app/Http/Controllers/SellsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../smart-agric/app/Http/Controllers/SellsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smart-agric/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../smart-agric/resources/views/auth/register.blade.php" afterDir="false" />
@@ -21,7 +88,6 @@
       <change beforePath="$PROJECT_DIR$/../smart-agric/tests/Feature/SellsControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../smart-agric/tests/Feature/SellsControllerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,14 +95,17 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DonationController.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DonationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
+            <state relative-caret-position="1598">
+              <caret line="101" column="65" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
               <folding>
                 <element signature="e#41#60#0#PHP" expanded="true" />
               </folding>
@@ -44,11 +113,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/mtn-mom/view.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            <state relative-caret-position="493">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="e#23#63#0#PHP" expanded="true" />
               </folding>
@@ -56,20 +134,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="297">
+              <caret line="170" column="55" selection-start-line="170" selection-start-column="55" selection-end-line="170" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="e#40#57#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,10 +174,11 @@
       <find>refer</find>
       <find>$momo</find>
       <find>paye</find>
+      <find>AUTH</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../laravel/blog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -112,38 +203,20 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_09_27_065318_create_mtn_payments_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_27_000002_create_mtn_payments_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_29_000002_create_mtn_payments_table.php" />
         <option value="$PROJECT_DIR$/app/MtnPayment.php" />
         <option value="$PROJECT_DIR$/app/Donation.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_09_29_000001_create_donations_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/mtn-mom/view.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/mtn-mom/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/DonationController.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DonationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/mtn-mom/view.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/../laravel/blog/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-      <path value="$PROJECT_DIR$/../laravel/blog/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -251,6 +324,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,57 +335,29 @@
             <path>
               <item name="laravel-6.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-6.0" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-6.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel-6.0" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-6.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-6.0" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-6.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-6.0" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-6.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-6.0" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-6.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-6.0" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="mtn-mom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-6.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-6.0" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../multi-auth-diy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -357,43 +403,47 @@
       <workItem from="1569995098892" duration="10123000" />
       <workItem from="1570005938933" duration="21714000" />
       <workItem from="1570029608444" duration="1976000" />
+      <workItem from="1570037598330" duration="255000" />
+      <workItem from="1570038785824" duration="2818000" />
+      <workItem from="1570137641764" duration="7274000" />
+      <workItem from="1570176115202" duration="4479000" />
+      <workItem from="1570397493229" duration="3232000" />
+      <workItem from="1570430905137" duration="789000" />
+      <workItem from="1570433459260" duration="19554000" />
+      <workItem from="1570657148116" duration="570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147884000" />
+    <option name="totallyTimeSpent" value="186855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23279649" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13313162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32884902" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32884902" />
-      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
@@ -608,20 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/mtn-mom/view.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -685,37 +721,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DonationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
+        <state relative-caret-position="1598">
+          <caret line="101" column="65" selection-start-line="101" selection-start-column="65" selection-end-line="101" selection-end-column="65" />
           <folding>
             <element signature="e#41#60#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/mtn-mom/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="e#23#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="170" column="55" selection-start-line="170" selection-start-column="55" selection-end-line="170" selection-end-column="55" />
         </state>
       </provider>
     </entry>

@@ -2,22 +2,21 @@
 
 @section('content')
 <div class="container">
-    {{--@foreach($mtn_payments as $mtn_payment)--}}
+
     <div class="card">
         <div class="card-header">
             message
         </div>
 
         <div class="card-body">
-            Dial *165# and select approval option.<br>
+           Y'ello.Dial *165*3#, select My Approvals to authorise payment of EURO<br>
+           <span class="font-weight-bold"> </span><br>
 
-           {{--<span class="font-weight-bold"> </span>{{$mtn_payment->amount}}<br>--}}
-           {{--<span class="font-weight-bold">Status: </span>{{$mtn_payment->status}}<br>--}}
-            {{--<span class="font-weight-bold">Reason:</span> {{$mtn_payment->reason}}<br>--}}
-            {{--<span class="font-weight-bold">Transaction Id:</span> {{$mtn_payment->id}}<br>--}}
+           <span class="font-weight-bold">Transaction Status: </span>{{$mtn_payments->status}}<br>
+            <span class="font-weight-bold">Reason:</span> {{$mtn_payments->reason}}<br>
 
         </div>
-            {{--@endforeach--}}
+
         <a href="{{url('/')}}">
             <button type="button" class="btn btn-success">Back Home</button>
         </a>

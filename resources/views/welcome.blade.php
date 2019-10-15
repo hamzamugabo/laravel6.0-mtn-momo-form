@@ -152,18 +152,36 @@
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="card">
-                        <div class="card-header font-weight-bold">Total</div>
+                        <div class="card-header font-weight-bold">Donations</div>
                         <div class="card-body">
-                            @foreach($donations as $donation)
-                                @foreach($users as $user)
-                                    @if($user->id === $donation->user_id)
-                                        {{ $user->name }}
-                                    @endif
-                                @endforeach
+                            <table>
 
-                                {{ $donation['amount'] }}
+                                @foreach($donations as $donation)
+                                   <tr>
+                                       <th></th>
+                                    <th></th>
+                                    <th></th>
+                                   </tr>
+                                    @foreach($users as $user)
+                                                @if($user->id === $donation->user_id)
+                                                    <tr>
+                                                <td><span class="font-weight-bold">{{ $user->name}}</span></td> <td></td>
+                                                        @endif
 
-                            @endforeach
+                                            @endforeach
+
+                                        <td>{{ $donation['amount'] }}€</td>
+                                                    </tr>
+
+
+                                    @endforeach
+                                    <tr>
+                                        <td>Total donations = </td>
+                                        <td></td>
+                                        <td>
+                                            {{$data = DB::table("mtn_payments")->sum('amount')}}€</td>
+                                    </tr>
+                            </table>
 
                         </div>
                     </div>
